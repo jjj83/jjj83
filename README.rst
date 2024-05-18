@@ -5,14 +5,8 @@ Salutations, fellow earthlings!
     #include <stdio.h>
     int main(void)
     {
-        int i;
-        for (i = 99; i > 1; i++)
+        while (true)
         {
-            int o = i;
-            printf("%d bottles of age-appropriate nonalcoholic beverage on the wall, %d bottles of age-appropriate nonalcoholic beverage.\n")
-            printf("Take one down, pass it around.\n")
+            printf("Cool video: https://www.youtube.com/watch?v=dQw4w9WgXcQ");
         }
-        printf("One more bottle of age-appropriate nonalcoholic beverage on the wall, one more bottle of age-appropriate nonalcoholic beverage.\n")
-        printf("Take it down, pass it around.\n")
-        printf("No more bottles of beer on the wall.")
     }
